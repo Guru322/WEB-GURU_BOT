@@ -1,2 +1,2 @@
 # WEB-GURU_BOT
-just some HTML
+FRONT END OF https://web-guru-bot.vercel.app
