@@ -32,10 +32,10 @@
     }
 
     body {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
       min-height: 100vh;
       background: url("20230704_234038.jpg") no-repeat center center fixed; 
       -webkit-background-size: cover;
@@ -43,6 +43,11 @@
       -o-background-size: cover;
       background-size: cover;
       color: var(--color-white);
+    }
+
+    .links {
+      position: absolute;
+      bottom: 20%;
     }
 
     a {
@@ -77,10 +82,12 @@
   </style>
  </head> 
  <body> 
-  <a href="https://replit.com/@Guru322/GURU-BOT-QR-CODE-GENERATOR?v=1">GET QR CODE</a> 
-  <a href="https://github.com/Guru322/GURU-BOT/fork">FORK</a> 
-  <a href="https://guru-bot-deploy.vercel.app">DEPLOY</a> 
-  <a href="https://youtu.be/J_Sq5OxK8ZE">TUTORIAL</a> 
-  <a href="https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp">SUPPORT GROUP</a> 
+  <div class="links">
+    <a href="https://replit.com/@Guru322/GURU-BOT-QR-CODE-GENERATOR?v=1">GET QR CODE</a> 
+    <a href="https://github.com/Guru322/GURU-BOT/fork">FORK</a> 
+    <a href="https://guru-bot-deploy.vercel.app">DEPLOY</a> 
+    <a href="https://youtu.be/J_Sq5OxK8ZE">TUTORIAL</a> 
+    <a href="https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp">SUPPORT GROUP</a> 
+  </div>
  </body>
 </html>
